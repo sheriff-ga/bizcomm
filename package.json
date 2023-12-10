@@ -1,7 +1,7 @@
 {
   "name": "bizcomm",
   "version": "0.1.0",
-  "homepage": "https://sheriff-ga.githuyarnb.io/bizcomm/src",
+  "homepage": "https://sheriff-ga.github.io/bizcomm/src",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
