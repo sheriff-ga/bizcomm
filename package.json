@@ -1,7 +1,7 @@
 {
   "name": "bizcomm",
   "version": "0.1.0",
-  "homepage": "https://sheriff-ga.github.io/bizcomm/static",
+  "homepage": "https://sheriff-ga.github.io/bizcomm",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -21,7 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "plugins": [
