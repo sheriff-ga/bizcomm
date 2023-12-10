@@ -149,7 +149,7 @@ const Home = () => {
               <h2>About US</h2>
               <p>BizCom, a company established by a team of experienced, dedicated and young professionals to deliver quality service to our customers timely and at competitive prices...</p>
               <ul className="actions">
-                <li><a href="about.html" className="button alt">More</a></li>
+                <li><a href="/about" className="button alt">More</a></li>
               </ul>
             </div>
           </article>
@@ -159,7 +159,7 @@ const Home = () => {
               <h2>Our Founder</h2>
               <p>Meet Adebayo Azeez, the innovative mind behind the undisputable technological web services being rendered BizCom InfoTech.  <br />After imparting knowledge for nearly two decades at the University of Ilesa, this seasoned lecturer possesses a wealth of expertise and is ready to offer additional valuable services to the global community.</p>
               <ul className="actions">
-                <li><a href="#" className="button alt">More</a></li>
+                <li><a href="/services" className="button alt">More</a></li>
               </ul>
             </div>
           </article>
