@@ -15,7 +15,7 @@ const Services = () => {
       {/* Header */}
       <header id="header" className="alt">
         <h1>
-          <a href="Home">
+          <a href="/bizcomm">
             <img src={logo} alt="BizCom Logo" />
           </a>
         </h1>
@@ -27,15 +27,9 @@ const Services = () => {
       {/* Navigation */}
       <nav id="nav" className={`close ${isNavOpen ? 'visible' : ''}`}>
         <ul className="links">
-          <li>
-            <Link to="/Home">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-          <li>
-            <Link to="/Services">Services</Link>
-          </li>
+          <li><a><Link to="/bizcomm" style={{textDecoration: "none"}}>Home</Link></a></li>
+          <li><a><Link to="/bizcomm/about" style={{textDecoration: "none"}}>About US</Link></a></li>
+          <li><a><Link to="/bizcomm/services" style={{textDecoration: "none"}}>Services</Link></a></li>
         </ul>
         <a href="#nav" className="close" onClick={handleNavToggle}></a>
       </nav>
