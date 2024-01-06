@@ -65,15 +65,15 @@ const AboutPage = () => {
   return (
     <div className={`landing ${isNavOpen ? 'is-nav-open' : ''}`}>
         <header id="header" className="alt">
-          <h1><a href="/bizcomm"><img src={logo} alt="BizCom Logo"/></a></h1>
+          <h1><a href="Home"><img src={logo} alt="BizCom Logo"/></a></h1>
           <a href="#nav" className="close" onClick={handleNavToggle}>Menu</a>
         </header>
 
       <nav id="nav" className={`close ${isNavOpen ? 'visible' : ''}`}>
         <ul className="links">
-          <li><a><Link to="/bizcomm" style={{textDecoration: "none"}}>Home</Link></a></li>
-          <li><a><Link to="/bizcomm/about" style={{textDecoration: "none"}}>About US</Link></a></li>
-          <li><a><Link to="/bizcomm/services" style={{textDecoration: "none"}}>Services</Link></a></li>
+          <li><a><Link to="/Home">Home</Link></a></li>
+          <li><a><Link to="/about">About US</Link></a></li>
+          <li><a href="elements.html"><Link to="/Services">Services</Link></a></li>
         </ul>
         <a href="#nav" className="close" onClick={handleNavToggle}></a>
       </nav>
