@@ -1,102 +1,3 @@
-// <!DOCTYPE HTML>
-// <html>
-// 	<head>
-// 		<title>BizCom InfoTech</title>
-// 		<meta charset="utf-8"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-// 		<meta name="viewport" content="width=device-width, initial-scale=1"> <script src="assets/js/ie/html5shiv.js"></script>
-// 		<link rel="stylesheet" href="../assets/css/main.css"><!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]--><!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-// 	</head>
-	
-// 	<body class="landing">
-
-// 		<!-- Header -->
-// 			<header id="header" class="alt"><h1><a href="index.html">BizCom-logo</a></h1>
-// 				<a href="#nav">Menu</a>
-// 			</header><!-- Nav --><nav id="nav"><ul class="links"><li><a href="index.html">Home</a></li>
-// 					<li><a href="about.html">About US</a></li>
-// 					<li><a href="elements.html">Elements</a></li>
-// 				</ul></nav><!-- Banner --><section id="banner"><i class="icon fa-laptop"></i>
-// 				<h2>BizCom InfoTech Limited</h2>
-// 				<p style="text-transform: none;">Your one stop shop for the best affordable gadgets</p>
-// 				<ul class="actions"><li><a href="#" class="button big special">View Store</a></li>
-// 				</ul></section><!-- One --><section id="one" class="wrapper style1"><div class="inner">
-// 					<article class="feature left"><span class="image"><img src="/images/pic01.jpg" alt="" width="576" height="358"></span>
-// 						<div class="content">
-// 							<h2>About US</h2>
-// 							<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est...</p>
-// 							<ul class="actions"><li>
-// 									<a href="about.html" class="button alt">More</a>
-// 								</li>
-// 							</ul></div>
-// 					</article><article class="feature right"><span class="image"><img src="images/pic02.jpg" alt="" width="576" height="358"></span>
-// 						<div class="content">
-// 							<h2>Our Founder</h2>
-// 							<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
-// 							<ul class="actions"><li>
-// 									<a href="#" class="button alt">More</a>
-// 								</li>
-// 							</ul></div>
-// 					</article></div>
-// 			</section><!-- Two --><section id="two" class="wrapper special"><div class="inner">
-// 					<header class="major narrow"><h2>Services</h2>
-// 						<p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
-// 					</header><div class="image-grid">
-// 						<!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" width="299" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic04.jpg" alt="" width="299" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic05.jpg" alt="" width="300" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic06.jpg" alt="" width="300" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic07.jpg" alt="" width="300" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic08.jpg" alt="" width="300" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic09.jpg" alt="" width="300" height="200"></a>
-// 						<a href="#" class="image"><img src="images/pic10.jpg" alt="" width="300" height="200"></a> -->
-// 					</div>
-// 					<ul class="actions"><li><a href="#" class="button big alt">Tempus Aliquam</a></li>
-// 					</ul></div>
-// 			</section><!-- Three --><section id="three" class="wrapper style3 special"><div class="inner">
-// 					<header class="major narrow	"><h2>Magna sed consequat tempus</h2>
-// 						<p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
-// 					</header><ul class="actions"><li><a href="#" class="button big alt">Magna feugiat</a></li>
-// 					</ul></div>
-// 			</section><!-- Four --><section id="four" class="wrapper style2 special"><div class="inner">
-// 					<header class="major narrow"><h2>Get in touch</h2>
-// 						<p>Ipsum dolor tempus commodo adipiscing</p>
-// 					</header><form action="#" method="POST">
-// 						<div class="container 75%">
-// 							<div class="row uniform 50%">
-// 								<div class="6u 12u$(xsmall)">
-// 									<input name="name" placeholder="Name" type="text"></div>
-// 								<div class="6u$ 12u$(xsmall)">
-// 									<input name="email" placeholder="Email" type="email"></div>
-// 								<div class="12u$">
-// 									<textarea name="message" placeholder="Message" rows="4"></textarea></div>
-// 							</div>
-// 						</div>
-// 						<ul class="actions"><li><input type="submit" class="special" value="Submit"></li>
-// 							<li><input type="reset" class="alt" value="Reset"></li>
-// 						</ul></form>
-// 				</div>
-// 			</section><!-- Footer --><footer id="footer"><div class="inner">
-// 					<ul class="icons"><li><a href="#" class="icon fa-facebook">
-// 							<span class="label">Facebook</span>
-// 						</a></li>
-// 						<li><a href="#" class="icon fa-twitter">
-// 							<span class="label">Twitter</span>
-// 						</a></li>
-// 						<li><a href="#" class="icon fa-instagram">
-// 							<span class="label">Instagram</span>
-// 						</a></li>
-// 						<li><a href="#" class="icon fa-linkedin">
-// 							<span class="label">LinkedIn</span>
-// 						</a></li>
-// 					</ul></div>
-// 			</footer><div class="copyright">
-// 			<!-- Made with: <a href="https://templated.co/">TEMPLATED</a> -->
-// 		</div>
-// 		<!-- Scripts -->
-// 			<script src="/assets/js/jquery.min.js"></script><script src="/assets/js/skel.min.js"></script><script src="/assets/js/util.js"></script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--><script src="/assets/js/main.js"></script></body></html>
-
-
-// MyComponent.js
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import  logo  from "./BizCom-logo.png";
@@ -111,18 +12,22 @@ const Home = () => {
     setNavOpen(!isNavOpen);
   };
 
+  const handleAlert = () => {
+    alert('Opps, we are working on our social media pages at the moment. kindly stay tuned.');
+  }
+
   return (
     <div className={`landing ${isNavOpen ? 'is-nav-open' : ''}`}>
         <header id="header" className="alt">
-          <h1><a href="Home"><img src={logo} alt="BizCom Logo"/></a></h1>
+          <h1><a href="/bizcomm"><img src={logo} alt="BizCom Logo"/></a></h1>
           <a href="#nav" className="close" onClick={handleNavToggle}>Menu</a>
         </header>
 
       <nav id="nav" className={`close ${isNavOpen ? 'visible' : ''}`}>
         <ul className="links">
-          <li><a><Link to="/Home">Home</Link></a></li>
-          <li><a><Link to="/about">About US</Link></a></li>
-          <li><a href="elements.html"><Link to="/Services">Services</Link></a></li>
+          <li><a><Link to="/bizcomm" style={{textDecoration : "none"}}>Home</Link></a></li>
+          <li><a><Link to="/bizcomm/about" style={{textDecoration : "none"}}>About US</Link></a></li>
+          <li><a ><Link to="/bizcomm/services" style={{textDecoration : "none"}}>Services</Link></a></li>
         </ul>
         <a href="#nav" className="close" onClick={handleNavToggle}></a>
       </nav>
@@ -134,7 +39,7 @@ const Home = () => {
         <p>We are an Information Technology company based in Osun state, <br />
         visit/contact us today and let us help you!</p>
         <ul className="actions">
-          <li><a href="#" className="button big special">Contact Us</a></li>
+          <li><a href="#contact-us" className="button big special">Contact Us</a></li>
         </ul>
       </section>
 
@@ -143,23 +48,23 @@ const Home = () => {
         <div className="inner">
           <article className="feature left">
             <span className="image">
-              <img src={img1} alt="Image 1" width="576" height="358" />
+              <img src={img1} alt="Image 1" width="500" height="400" />
               </span>
             <div className="content">
               <h2>About US</h2>
               <p>BizCom, a company established by a team of experienced, dedicated and young professionals to deliver quality service to our customers timely and at competitive prices...</p>
               <ul className="actions">
-                <li><a href="/about" className="button alt">More</a></li>
+                <li><a href="/bizcomm/about" className="button alt">More</a></li>
               </ul>
             </div>
           </article>
           <article className="feature right">
-            <span className="image"><img src={img2} alt="image 2" width="576" height="400" /></span>
+            <span className="image"><img src={img2} alt="image 2" width="600" height="500" /></span>
             <div className="content">
               <h2>Our Founder</h2>
               <p>Meet Adebayo Azeez, the innovative mind behind the undisputable technological web services being rendered BizCom InfoTech.  <br />After imparting knowledge for nearly two decades at the University of Ilesa, this seasoned lecturer possesses a wealth of expertise and is ready to offer additional valuable services to the global community.</p>
               <ul className="actions">
-                <li><a href="/services" className="button alt">More</a></li>
+                <li><a href="/bizcomm/services" className="button alt">More</a></li>
               </ul>
             </div>
           </article>
@@ -174,21 +79,22 @@ const Home = () => {
           </header>
           <p id="pServices">At BizCom, our unwavering dedication to excellence defines our commitment to delivering superior services. 
               With nearly unparalleled expertise gained over years of service, 
-              we take pride in extending our offerings to meet the diverse needs of our valued clientele. <br />
-              Click on the button or any of the images below to see more on our services.</p>
-          <div className="image-grid">
+              we take pride in extending our offerings to meet the diverse needs of our valued clientele. <br /> <br />
+              Click on the button or any of the texts below to see more on our services.</p>
+          <div className="">
             {/* Add your image grid elements here */}
+            {/* <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
             <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
             <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
-            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
-            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
-            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
-            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
-            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
-            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a>
+            <a href="#" className="image"><img src={img1} alt="" width="299" height="200" /></a> */}
+            <a href="/bizcomm/services" style={{textDecoration : "none", color : "#1d2227"}}>1. Web Design, Maintenance, and Hosting</a> <br /> <br />
+            <a href="/bizcomm/services" style={{textDecoration : "none", color : "#1d2227"}}>2. Networking and Structure Cabling Solutions</a> <br /> <br />
+            <a href="/bizcomm/services" style={{textDecoration : "none", color : "#1d2227"}}>3. Computer Systems and Accessories</a> <br /> <br />
+            <a href="/bizcomm/services" style={{textDecoration : "none", color : "#1d2227"}}>4. Network Design and Implementation</a> <br /> <br />
+            <a href="/bizcomm/services" style={{textDecoration : "none", color : "#1d2227"}}>5. Software and Hardware Sales and Maintenance</a> <br /> <br /> <br />
           </div>
           <ul className="actions">
-            <li><a href="#" className="button big alt">More</a></li>
+            <li><a href="/bizcomm/services" className="button big alt">More</a></li>
           </ul>
         </div>
       </section>
@@ -207,13 +113,13 @@ const Home = () => {
       </section> */}
 
       {/* Four */}
-      <section id="four" className="wrapper style2 special">
+      <section id="contact-us" className="wrapper style2 special">
         <div className="inner">
           <header className="major narrow">
             <h2>Get in touch</h2>
             <p>Reach out to us today!</p>
           </header>
-          <form action="#" method="POST">
+          {/* <form action="#" method="POST">
             <div className="container 75%">
               <div className="row uniform 50%">
                 <div className="6u 12u$(xsmall)">
@@ -226,12 +132,12 @@ const Home = () => {
                   <textarea name="message" placeholder="Message" rows="4"></textarea>
                 </div>
               </div>
-            </div>
+            </div> */}  <br /> <br />
             <ul className="actions">
-              <li><input type="submit" className="special" value="Submit" /></li>
-              <li><input type="reset" className="alt" value="Reset" /></li>
+              <a href="mailto:azeezjeleeladebayo@gmail.com"> <li><input type="submit" className="special" value="Send a mail!" href=""/></li></a>
+              {/* <li><input type="reset" className="alt" value="Reset" /></li> */}
             </ul>
-          </form>
+          {/* </form>  */}
         </div>
       </section>
 
@@ -239,10 +145,10 @@ const Home = () => {
       <footer id="footer">
         <div className="inner">
           <ul className="icons">
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
           </ul>
         </div>
       </footer>

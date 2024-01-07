@@ -1,53 +1,3 @@
-// <!DOCTYPE HTML>
-// <html>
-// 	<head>
-// 		<title>About us</title>
-// 		<meta charset="utf-8"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-// 		<meta name="viewport" content="width=device-width, initial-scale=1"><!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-// 		<link rel="stylesheet" href="/assets/css/main.css"><!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]--><!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-// 	</head>
-	
-// 	<body>
-
-// 		<!-- Header -->
-// 			<header id="header"><h1><a href="index.html">Bizcom-Logo</a></h1>
-// 				<a href="#nav">Menu</a>
-// 			</header><!-- Nav --><nav id="nav"><ul class="links"><li><a href="index.html">Home</a></li>
-// 					<li><a href="about.html">About US</a></li>
-// 					<li><a href="elements.html">Elements</a></li>
-// 				</ul></nav><!-- Main --><section id="main" class="wrapper"><div class="container">
-
-// 					<header class="major special"><h2>About US</h2>
-// 						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-// 					</header><a href="#" class="image fit"><img src="/images/pic11.jpg" alt="" width="1680" height="658"></a>
-// 					<h3>About</h3>
-// 					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-// 					<h3>The Mission</h3>
-// 					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-// 					<h3>The Vision</h3>
-// 					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
-
-// 				</div>
-// 			</section><!-- Footer --><footer id="footer"><div class="inner">
-// 					<ul class="icons"><li><a href="#" class="icon fa-facebook">
-// 							<span class="label">Facebook</span>
-// 						</a></li>
-// 						<li><a href="#" class="icon fa-twitter">
-// 							<span class="label">Twitter</span>
-// 						</a></li>
-// 						<li><a href="#" class="icon fa-instagram">
-// 							<span class="label">Instagram</span>
-// 						</a></li>
-// 						<li><a href="#" class="icon fa-linkedin">
-// 							<span class="label">LinkedIn</span>
-// 						</a></li>
-// 					</ul></div>
-// 			</footer><div class="copyright">
-// 			Made with: <a href="https://templated.co/">TEMPLATED</a>
-// 		</div>
-// 		<!-- Scripts -->
-// 			<script src="/assets/js/jquery.min.js"></script><script src="/assets/js/skel.min.js"></script><script src="/assets/js/util.js"></script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--><script src="/assets/js/main.js"></script></body></html>
-
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import  logo  from "./BizCom-logo.png";
@@ -62,18 +12,22 @@ const AboutPage = () => {
     setNavOpen(!isNavOpen);
   };
 
+  const handleAlert = () => {
+    alert('Opps, we are working on our social media pages at the moment. kindly stay tuned.');
+  }
+
   return (
     <div className={`landing ${isNavOpen ? 'is-nav-open' : ''}`}>
         <header id="header" className="alt">
-          <h1><a href="Home"><img src={logo} alt="BizCom Logo"/></a></h1>
+          <h1><a href="/bizcomm"><img src={logo} alt="BizCom Logo"/></a></h1>
           <a href="#nav" className="close" onClick={handleNavToggle}>Menu</a>
         </header>
 
       <nav id="nav" className={`close ${isNavOpen ? 'visible' : ''}`}>
         <ul className="links">
-          <li><a><Link to="/Home">Home</Link></a></li>
-          <li><a><Link to="/about">About US</Link></a></li>
-          <li><a href="elements.html"><Link to="/Services">Services</Link></a></li>
+          <li><a><Link to="/bizcomm" style={{textDecoration : "none"}}>Home</Link></a></li>
+          <li><a><Link to="/bizcomm/about" style={{textDecoration : "none"}}>About US</Link></a></li>
+          <li><a ><Link to="/bizcomm/services" style={{textDecoration : "none"}}>Services</Link></a></li>
         </ul>
         <a href="#nav" className="close" onClick={handleNavToggle}></a>
       </nav>
@@ -178,26 +132,10 @@ const AboutPage = () => {
         <footer id="footer">
           <div className="inner">
             <ul className="icons">
-              <li>
-                <a href="#" className="icon fa-facebook">
-                  <span className="label">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon fa-twitter">
-                  <span className="label">Twitter</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon fa-instagram">
-                  <span className="label">Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon fa-linkedin">
-                  <span className="label">LinkedIn</span>
-                </a>
-              </li>
+            <li><a onClick={handleAlert} className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
           </div>
         </footer>

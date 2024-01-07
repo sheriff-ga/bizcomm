@@ -10,12 +10,16 @@ const Services = () => {
     setNavOpen(!isNavOpen);
   };
 
+  const handleAlert = () => {
+    alert('Opps, we are working on our social media pages at the moment. kindly stay tuned.');
+  }
+
   return (
     <div className={`landing ${isNavOpen ? 'is-nav-open' : ''}`}>
       {/* Header */}
       <header id="header" className="alt">
         <h1>
-          <a href="Home">
+          <a href="/bizcomm">
             <img src={logo} alt="BizCom Logo" />
           </a>
         </h1>
@@ -27,15 +31,9 @@ const Services = () => {
       {/* Navigation */}
       <nav id="nav" className={`close ${isNavOpen ? 'visible' : ''}`}>
         <ul className="links">
-          <li>
-            <Link to="/Home">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-          <li>
-            <Link to="/Services">Services</Link>
-          </li>
+          <li><a><Link to="/bizcomm" style={{textDecoration : "none"}}>Home</Link></a></li>
+          <li><a><Link to="/bizcomm/about" style={{textDecoration : "none"}}>About US</Link></a></li>
+          <li><a ><Link to="/bizcomm/services" style={{textDecoration : "none"}}>Services</Link></a></li>
         </ul>
         <a href="#nav" className="close" onClick={handleNavToggle}></a>
       </nav>
@@ -188,26 +186,10 @@ const Services = () => {
       <footer id="footer">
         <div className="inner">
           <ul className="icons">
-            <li>
-              <a href="#" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-linkedin">
-                <span className="label">LinkedIn</span>
-              </a>
-            </li>
+          <li><a onClick={handleAlert} className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+            <li><a onClick={handleAlert} className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
           </ul>
         </div>
       </footer>
