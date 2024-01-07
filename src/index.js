@@ -41,7 +41,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/bizcomm" element={<App />} />
-        <Route path="/bizcomm" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/bizcomm/about" element={<About />} />
         {/* <Route path="/bizcomm/services" element={<Services />} /> */}
       </Routes>
