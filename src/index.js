@@ -40,7 +40,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/bizcomm" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/" element={<Home />} />
         <Route path="/bizcomm/about" element={<About />} />
         {/* <Route path="/bizcomm/services" element={<Services />} /> */}
